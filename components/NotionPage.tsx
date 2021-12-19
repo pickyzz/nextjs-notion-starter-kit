@@ -186,14 +186,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
           <meta name='twitter:creator' content={`@${config.twitter}`} />
         )}
 
-        {socialDescription && (
-          <>
-            <meta name='description' content={socialDescription} />
-            <meta property='og:description' content={socialDescription} />
-            <meta name='twitter:description' content={socialDescription} />
-          </>
-        )}
-
         {socialImage ? (
           <>
             <meta name='twitter:card' content='summary_large_image' />
@@ -280,7 +272,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         }
       />
 
-      <GitHubShareButton />
+      {/* <GitHubShareButton /> */}
     </TwitterContextProvider>
   )
 }

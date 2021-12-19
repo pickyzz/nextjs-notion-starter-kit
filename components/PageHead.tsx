@@ -18,11 +18,30 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
         <>
           <meta name='description' content={site.description} />
           <meta property='og:description' content={site.description} />
+          <meta name='twitter:description' content={site.description} />
         </>
       )}
 
       <meta name='theme-color' content='#EB625A' />
       <meta property='og:type' content='website' />
+
+      {/* google analytics */}
+      <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-F0LYXZGWQ6`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-F0LYXZGWQ6', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
     </Head>
   )
 }
