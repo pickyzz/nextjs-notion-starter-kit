@@ -7,6 +7,29 @@
   padding: 1.5em !important;
 }
 
+.dark-mode {
+  background-color: rgba(21, 20, 27, 0.8);
+  --bg-color: rgba(21, 20, 27, 0.8); /* ไม่รู้ทำไมแต่ใสอันเดียวแล้วสีมันเพี้ยนตอนโหลดเข้าเว็บครั้งแรก */
+  --fg-color-0 :rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .notion-collection-card{
+  background-color: transparent;
+}
+
+.dark-mode .notion-gallery-grid .notion-collection-card:hover {
+  background-color: rgba(50, 46, 70, 0.6);
+}
+
+.dark-mode .notion-gallery-grid .notion-page-link:hover {
+  background: transparent;
+}
+
+
+.dark-mode .notion-page-link:hover {
+  background-color: rgba(50, 46, 70, 0.6);
+}
+
 .dark-mode .notion-code {
   background-color: rgba(17, 24, 39, 1);
   border-color: rgba(55, 65, 81, 1);
@@ -24,7 +47,7 @@
 
 .dark-mode .notion .notion-inline-code {
   background: rgb(71,76,80) !important;
-  color: #ff4081;
+  color: rgb(158, 150, 111);
   padding: .2em .4em !important;
 }
 
