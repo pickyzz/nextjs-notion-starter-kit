@@ -8,13 +8,13 @@ module.exports = {
 
   // basic site info (required)
   name: 'Pickyzz',
-  domain: 'pickyzz.ga',
+  domain: 'pickyzz.dev',
   author: 'Pickyzz T.',
 
   // open graph metadata (optional)
-  description: 'I have computer.',
-  socialImageTitle: 'Pickyzz Blog',
-  socialImageSubtitle: 'I have computer.',
+  description: 'Just learning to code.',
+  socialImageTitle: 'Pickyzz.dev',
+  socialImageSubtitle: 'Just learning to code.',
 
   // social usernames (optional)
   twitter: 'p1ckyzz',
@@ -24,7 +24,7 @@ module.exports = {
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
-  defaultPageCover: 'https://og-image-pickyzz.vercel.app/**Pickyzz**.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fraw.githubusercontent.com%2Fpickyzz%2Fpickyzz.ga%2F9a319c06dae88b888f1c1d1e25f175152ab397b8%2Fpublic%2Ffavicon.svg',
+  defaultPageCover: 'https://og-image-pickyzz.vercel.app/**Pickyzz.dev**.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fraw.githubusercontent.com%2Fpickyzz%2Fpickyzz.ga%2F9a319c06dae88b888f1c1d1e25f175152ab397b8%2Fpublic%2Ffavicon.svg',
   defaultPageCoverPosition: 0.5,
 
   // image CDN host to proxy all image requests through (optional)
