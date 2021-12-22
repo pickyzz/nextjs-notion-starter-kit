@@ -9,7 +9,7 @@ module.exports = {
   // basic site info (required)
   name: 'Pickyzz',
   domain: 'pickyzz.dev',
-  author: 'Pickyzz T.',
+  author: 'Pickyzz',
 
   // open graph metadata (optional)
   description: 'Just learning to code.',

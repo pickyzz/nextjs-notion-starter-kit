@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>© 2021 {config.author}</div>
+      <div className={styles.copyright}>© 2020 - 2021 | {config.author}</div>
 
       <div className={styles.social}>
         {config.twitter && (

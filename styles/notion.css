@@ -61,8 +61,20 @@
   margin: 0 auto;
 }
 
-.notion-page-title-text{
+.notion-page-icon{
+  font-family:none;
+}
+
+.notion-page-title-icon {
+  margin-top: -1px;
+}
+
+.notion-page-title-text {
   border-bottom: 0px
+}
+
+.notion-spacer {
+  margin-left: -10px;
 }
 
 .notion-gallery-grid {
