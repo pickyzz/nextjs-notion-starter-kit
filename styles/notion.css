@@ -73,10 +73,6 @@
   border-bottom: 0px
 }
 
-.notion-spacer {
-  margin-left: -20px;
-}
-
 .notion-gallery-grid {
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   grid-gap: 6vmin;
@@ -263,14 +259,13 @@
   transition-duration: 220ms;
   transition-timing-function: ease-in;
   transition-delay: 0s;
+  border-radius: 16px;
 }
 
 .notion-block-9ff02e173d3e4ef395b24e0593b568fa,
 .notion-block-f4d92ac3fb0a4c7f8afc254bb5d1dcd1 {
   justify-content: center !important;
   font-family: "Athiti", sans-serif;
-  border-radius: 16px;
-  /* display: none; */
 }
 
 .notion-code {
