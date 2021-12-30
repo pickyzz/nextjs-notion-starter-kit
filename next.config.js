@@ -6,7 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   images: {
-    domains: ['pbs.twimg.com', 'notion.so/image', 'images.unsplash.com']
+    domains: ['pbs.twimg.com', 'notion.so', 'images.unsplash.com']
   },
   eslint: {
     ignoreDuringBuilds: true,
