@@ -1,4 +1,5 @@
 import React from 'react'
+import Snakke from 'react-snakke'
 import { isDev, domain } from 'lib/config'
 import { getSiteMaps } from 'lib/get-site-maps'
 import { resolveNotionPage } from 'lib/resolve-notion-page'
@@ -47,5 +48,14 @@ export async function getStaticPaths() {
 }
 
 export default function NotionDomainDynamicPage(props) {
-  return <NotionPage {...props} />
+  return (
+  <div>
+      <NotionPage {...props} /><Snakke
+      color='#8458e9'
+      top='54px'
+      height='2px'
+      opacity='0.7'
+      zIndex='10'
+      shadow={false} />
+  </div>)
 }
