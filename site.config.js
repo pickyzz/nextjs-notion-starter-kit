@@ -49,7 +49,8 @@ module.exports = {
   // }
   pageUrlOverrides: {
     '/about': '9ff02e173d3e4ef395b24e0593b568fa',
-    '/snap': 'f4d92ac3fb0a4c7f8afc254bb5d1dcd1'
+    '/snap': 'f4d92ac3fb0a4c7f8afc254bb5d1dcd1',
+    '/oldposts': '3d3db7f7eba948719053867799a0fe51'
   },
 
   // map of notion page IDs to custom descriptions (optional)

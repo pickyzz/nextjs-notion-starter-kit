@@ -67,6 +67,7 @@
 
 .notion-page-title-icon {
   margin-top: -1px;
+  font-weight: 100;
 }
 
 .notion-page-title-text {
@@ -200,6 +201,10 @@
   .notion-search-button {
     display: none !important;
   }
+
+  .notion-block-3d3db7f7eba948719053867799a0fe51 .notion-property-date {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -263,9 +268,14 @@
 }
 
 .notion-block-9ff02e173d3e4ef395b24e0593b568fa,
-.notion-block-f4d92ac3fb0a4c7f8afc254bb5d1dcd1 {
+.notion-block-f4d92ac3fb0a4c7f8afc254bb5d1dcd1,
+.notion-block-3d3db7f7eba948719053867799a0fe51 {
   justify-content: center !important;
   font-family: "Athiti", sans-serif;
+}
+
+.notion-block-3d3db7f7eba948719053867799a0fe51 .notion-title {
+  display: none;
 }
 
 .notion-code {
@@ -470,4 +480,9 @@
 
 .notion-page-has-cover.notion-page-has-text-icon{
   margin-top: 2%;
+}
+
+.notion-list-body{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 100%;
 }
